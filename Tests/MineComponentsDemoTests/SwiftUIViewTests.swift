@@ -7,7 +7,6 @@
 
 import Foundation
 import XCTest
-import SwiftUI
 import MineComponentsDemo
 
 class SwiftUIViewTests: XCTestCase {
