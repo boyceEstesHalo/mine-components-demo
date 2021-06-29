@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+public struct SwiftUIView: View {
 
-    let string: String
+    private let string: String
 
-    var body: some View {
+    public init(string: String) { self.string = string }
+
+    public var body: some View {
         Text(string)
     }
 }
